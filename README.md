@@ -49,13 +49,12 @@ Initial model parameter tuning was performed using Optuna for the following clas
 ---
 
 ## 🔍 Metaheuristic Optimizers Used
-
-Metaheuristic optimizers from the `mealpy` library were applied to further enhance the best model:  
 - JADE  
 - EnhancedAEO  
 - OriginalJA  
 - LevyJA
-
+Note:All metaheuristic optimizers are present in the `mealpy` library. However, custom functions for LevyJA and OrginalJA were written instead of using the lib.
+ref: [Paper Link](https://www.sciencedirect.com/science/article/abs/pii/S0957417420306989)
 ---
 
 ## 📈 Results
